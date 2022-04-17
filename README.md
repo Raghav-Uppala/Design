@@ -29,11 +29,17 @@ COMMIT;
 Than run:
 INSERT INTO `accounts` (`id`, `FirstName`, `LastName`, `userEmail`, `userUid`, `userPwd`, `Admin`, `OrderHist`) VALUES
 (1, 'customer', 'customer', 'customer@example.com', 'customerUID', 'customerPWD', '0', 'test Order:;:;:HD:;:;:2B'),
-(2, 'super', 'user', 'superuser@example.com', 'superuserPWD', '2', '1', NULL);
+(2, 'super', 'user', 'superuser@example.com', 'superuserUID', 'superuserPWD', '1', NULL);
 
 
 With this, you have created a working database that handles the login system and the order system.
 You have also setup a dummy customer account, a dummy admin account, and a test order.
 
 
-# hi
+The credincials for the customer account is:
+Username: customerUID
+Password: customerPWD
+
+The credincials for the admin is:
+Username: superuserUID
+Password: superuserPWD
