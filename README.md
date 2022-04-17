@@ -1,4 +1,4 @@
-# Design
+# Instructions on how to setup the program
 
 Open xammp and set up a database.
 
@@ -33,4 +33,7 @@ INSERT INTO `accounts` (`id`, `FirstName`, `LastName`, `userEmail`, `userUid`, `
 
 
 With this, you have created a working database that handles the login system and the order system.
-You have also setup a dummy customer account, a dummy admin account, and a test order. 
+You have also setup a dummy customer account, a dummy admin account, and a test order.
+
+
+# hi
