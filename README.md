@@ -1,5 +1,8 @@
 # Instructions on how to setup the program
 
+Copy paste the code into the htdocs folder. Than follow the instructions on setting up the database.
+You will have to start the Apache and MySQL programs on the xammp dashboard.
+
 Open xammp and set up a database.
 
 Click new under your database and go to the sql tab.
