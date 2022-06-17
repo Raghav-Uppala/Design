@@ -1,4 +1,4 @@
-# Instructions on how to setup the program
+# Instructions on how to setup the website on local machine
 
 Copy paste the code into the htdocs folder. Than follow the instructions on setting up the database.
 You will have to start the Apache and MySQL programs on the xammp dashboard.
@@ -18,18 +18,18 @@ CREATE TABLE `accounts` (
   `OrderHist` text DEFAULT ' '
 )
 
-Than run:
+Then run:
 
 ALTER TABLE `accounts`
   ADD PRIMARY KEY (`id`);
 
-Than run:
+Then run:
 
 ALTER TABLE `accounts`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
-Than run:
+Then run:
 INSERT INTO `accounts` (`id`, `FirstName`, `LastName`, `userEmail`, `userUid`, `userPwd`, `Admin`, `OrderHist`) VALUES
 (1, 'customer', 'customer', 'customer@example.com', 'customerUID', 'customerPWD', '0', 'test Order:;:;:HD:;:;:2B'),
 (2, 'super', 'user', 'superuser@example.com', 'superuserUID', 'superuserPWD', '1', NULL);
