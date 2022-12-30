@@ -1,8 +1,8 @@
 <?php
-$servername = "sql311.unaux.com";
-$username = "unaux_33290985";
+$servername = "sql203.unaux.com";
+$username = "unaux_33291153";
 $password = "a88of87xj";
-$dbname = "unaux_33290985_design";
+$dbname = "unaux_33291153_design";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
